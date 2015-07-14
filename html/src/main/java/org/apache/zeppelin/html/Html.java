@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.zeppelin.markdown;
+package org.apache.zeppelin.html;
 
 import java.io.IOException;
 import java.util.List;
