@@ -28,7 +28,6 @@ import org.apache.zeppelin.interpreter.InterpreterResult.Code;
 import org.apache.zeppelin.interpreter.InterpreterUtils;
 import org.apache.zeppelin.scheduler.Scheduler;
 import org.apache.zeppelin.scheduler.SchedulerFactory;
-import org.markdown4j.Markdown4jProcessor;
 
 /**
  * Markdown interpreter for Zeppelin.
@@ -38,7 +37,6 @@ import org.markdown4j.Markdown4jProcessor;
  *
  */
 public class Html extends Interpreter {
-  private Markdown4jProcessor md;
 
   static {
     Interpreter.register("html", Html.class.getName());

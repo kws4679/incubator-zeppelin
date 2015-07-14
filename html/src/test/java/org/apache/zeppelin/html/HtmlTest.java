@@ -22,7 +22,6 @@ import static org.junit.Assert.assertEquals;
 import java.util.Properties;
 
 import org.apache.zeppelin.interpreter.InterpreterResult;
-import org.apache.zeppelin.markdown.Markdown;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -43,7 +42,7 @@ public class HtmlTest {
 		html.open();
 		InterpreterResult result = html.interpret("<html></html>", null);
 		assertEquals("<html></html>", result.message());
-		System.out.println(MarkdownTest.class.getName());
+		System.out.println(HtmlTest.class.getName());
 	}
 
 }
